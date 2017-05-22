@@ -31,6 +31,35 @@ $ npm install verbose-api
 ## Features
 
   * Graph QL
+  
+## API
+
+### verboseApi(options)
+
+Boots up the API, routes and connects to database.
+
+- `options` an object that is passed to `verbose-api` on setup 
+
+### verboseApi.version
+
+Returns the current version of the verbose api you are using
+
+## Options
+
+```js
+var express = require('express')
+var verboseApi = require('verbose-api')
+
+var app = express()
+app.use(verboseApi({options}))
+```
+
+#### options.something
+Type: `Boolean`
+Default value: true
+
+A boolean value to turn off something special off
+
 
 ## Docs & Community
 
