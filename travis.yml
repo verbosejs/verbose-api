@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "0.8"
+  - "0.10"
+  - "0.12"
+  - "1.8"
+  - "2.5"
+  - "3.3"
+  - "4.6"
+  - "5.12"
+  - "6.9"
+  - "7.1"
+sudo: false
+cache:
+  directories:
+    - node_modules
+before_install:
+script:
+  # Run test script, depending on istanbul install
+  - "npm test"
+after_script:
