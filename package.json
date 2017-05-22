@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/verbosejs/verbose-api/issues"
   },
-  "homepage": "https://github.com/verbosejs/verbose-api#readme"
+  "homepage": "https://github.com/verbosejs/verbose-api#readme",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
 }
