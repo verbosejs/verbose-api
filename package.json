@@ -1,10 +1,11 @@
 {
   "name": "verbose-api",
   "version": "0.0.1",
-  "description": "Verbose CMS dashboard",
+  "description": "Verbose CMS API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L test/express.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,13 @@
     "url": "https://github.com/verbosejs/verbose-api/issues"
   },
   "homepage": "https://github.com/verbosejs/verbose-api#readme",
+  "dependencies": {
+    "debug": "^2.6.8"
+  },
   "devDependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "hjs": "^0.0.6",
     "express": "^4.15.3"
   }
 }
