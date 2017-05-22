@@ -5,6 +5,7 @@ API GraphQL API for verbose cms [express](https://github.com/verbosejs/verbose-e
   [![NPM Downloads][downloads-image]][downloads-url]
   [![Linux Build][travis-image]][travis-url]
   [![Test Coverage][coveralls-image]][coveralls-url]
+  [![Known Vulnerabilities](https://snyk.io/test/github/verbosejs/verbose-api/badge.svg)](https://snyk.io/test/github/verbosejs/verbose-api)
 
 ```js
 const express = require('express');
