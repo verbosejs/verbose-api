@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/verbosejs/verbose-api#readme",
   "dependencies": {
-    "debug": "^2.6.8"
+    "debug": "^2.6.9"
   },
   "devDependencies": {
     "body-parser": "^1.17.2",
